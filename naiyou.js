@@ -15,7 +15,7 @@
 *******************************
 [rewrite_local]
 #奶由壁纸
-^https:\/\/.*\.duitang\.com\/account\/me\/ url script-response-body naiyou.js
+^https:\/\/.*\.duitang\.com\/account\/me\/ url script-response-body https://raw.githubusercontent.com/KosLzz/quantumult-X/main/naiyou.js
 
 [mitm] 
 hostname = *.duitang.com
